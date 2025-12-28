@@ -32,26 +32,20 @@ export default function About() {
         <div className={styles.content}>
           <div className={styles.narrative}>
             <p>
-              Senior Full-Stack Engineer with 10+ years of experience building production-grade applications with
-              Python (FastAPI, Django, Flask), PyTorch, and modern JavaScript (React, TypeScript). I deliver
-              end-to-end features across backend services, REST/GraphQL APIs, front-end interfaces, relational
-              databases, CI/CD workflows, and cloud-native environments (AWS, Azure, GCP).
+              Senior Python/AI Engineer with 10+ years of experience building production-grade AI/ML systems and backend services. Specialized in FastAPI, PyTorch, TensorFlow, and scalable cloud deployments on AWS.
             </p>
             <p>
-              I design scalable FastAPI services, build responsive React UIs, optimize PostgreSQL/MySQL schemas,
-              and implement unit, integration, and performance tests to ensure reliability. I also integrate
-              AI/LLM-driven features, embeddings, and ML inference services powered by PyTorch.
+              I design and deploy AI/ML microservices, architect ETL/data pipelines, and deliver robust model inference APIs for real-time and batch prediction. I have deep experience with Python, ML frameworks, and cloud automation.
             </p>
             <p>
-              Comfortable owning functionality across the full SDLC — architecture, development, testing,
-              deployment, and production support in enterprise and remote team contexts.
+              I thrive in cross-functional teams, collaborating with product, data, and UI/UX to deliver reliable, user-focused AI features from prototype to production.
             </p>
           </div>
 
           <div className={styles.facts}>
             <div className={styles.factItem}>
               <div className={styles.factLabel}>Location</div>
-              <div className={styles.factValue}>(Remote)</div>
+              <div className={styles.factValue}>Remote</div>
             </div>
 
             <div className={styles.factItem}>
@@ -61,17 +55,17 @@ export default function About() {
 
             <div className={styles.factItem}>
               <div className={styles.factLabel}>Primary Focus</div>
-              <div className={styles.factValue}>Full-Stack & ML/AI</div>
+              <div className={styles.factValue}>Python, AI/ML, Cloud</div>
             </div>
 
             <div className={styles.factItem}>
-              <div className={styles.factLabel}>Databases</div>
-              <div className={styles.factValue}>PostgreSQL, MySQL, MongoDB</div>
+              <div className={styles.factLabel}>ML/AI Stack</div>
+              <div className={styles.factValue}>PyTorch, TensorFlow, Keras, Scikit-learn</div>
             </div>
 
             <div className={styles.factItem}>
-              <div className={styles.factLabel}>Cloud</div>
-              <div className={styles.factValue}>AWS, Azure, GCP</div>
+              <div className={styles.factLabel}>Cloud & Data</div>
+              <div className={styles.factValue}>AWS, PostgreSQL, MongoDB, Redis</div>
             </div>
 
             <div className={styles.factItem}>

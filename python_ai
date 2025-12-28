@@ -1,0 +1,49 @@
+Summary
+Python AI Engineer Python AI Engineer with 8+ years of experience developing machine learning systems, AI-driven backend services, and scalable cloud architectures using Python, PyTorch, TensorFlow, and FastAPI. 
+Skilled in deploying ML workloads on AWS (EC2, S3, Lambda, SQS, SNS) and building data pipelines that support large-scale model training and inference. Known for strong communication and collaboration with product, data, and UI/UX teams to ship reliable, production-ready AI solutions.
+
+
+PROFESSIONAL EXPERIENCE
+Senior Python AI Engineer
+
+• Built AI/ML microservices using FastAPI and integrated PyTorch/TensorFlow inference in production.
+• Deployed ML workloads on AWS using EC2, S3, Lambda, SQS, and SNS for scalable data processing.
+• Designed ETL pipelines and data ingestion workflows supporting ML training and real-time prediction.
+• Implemented PostgreSQL, MongoDB, and Redis for model metadata, feature storage, and caching.
+• Improved CI/CD automation using Jenkins and GitHub Actions for ML deployment pipelines.
+• Collaborated with UI/UX teams to integrate AI-driven outputs into dashboards and user interfaces.
+• Worked closely with product managers to define ML requirements and deliver reliable AI features.
+________________________________________
+Python Machine Learning Engineer
+
+• Built machine learning models using PyTorch and Keras for analytics and forecasting products.
+• Developed FastAPI-based inference services consumed by web/mobile applications.
+• Automated dataset preprocessing, augmentation, and validation pipelines.
+• Managed AWS EC2 training environments and S3-based dataset storage systems.
+• Implemented PostgreSQL, MySQL, and MongoDB for ML persistence and feature retrieval.
+• Maintained Git + CI/CD pipelines for model versioning, deployment, and rollback.
+________________________________________
+ Python Developer 
+
+• Developed Python backend services using Flask with early ML integration for recommendation features.
+• Implemented background workers and preprocessing pipelines for ML batch workflows.
+• Participated in Dockerization and CI/CD deployment of Python and ML microservices.
+• Created reusable REST API components supporting ML-driven product features.
+• Collaborated with UI teams to integrate AI outputs into client-facing applications.
+
+TECHNICAL SKILLS
+AI & Machine Learning
+PyTorch, TensorFlow, Keras, Scikit-learn, ML pipelines, model training & inference, embeddings, feature engineering, model optimization
+Python & Backend
+Python 3.x, FastAPI, Flask, Django, RESTful APIs, async/await, microservices, backend architecture for ML systems
+Cloud Services
+AWS (EC2, S3, SQS, SNS, Lambda), serverless workflows, model deployment, cloud automation
+Data Pipelines & ETL
+ETL workflows, dataset preprocessing, ML data ingestion, Celery/RQ, streaming pipelines
+Databases
+PostgreSQL, MySQL, MongoDB, Redis, NoSQL aggregation, schema design, query optimization
+Tools & DevOps
+Git, GitHub, Bitbucket, Jenkins, GitHub Actions, Docker, OpenAPI/Swagger, Linux environments
+Frontend & Collaboration
+JavaScript, HTML, CSS, UI/UX collaboration, ML/AI API integration
+

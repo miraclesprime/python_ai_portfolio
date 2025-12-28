@@ -53,6 +53,59 @@ const caseStudies: CaseStudy[] = [
       ]
     }
   },
+    // AI Projects
+    {
+      id: 'ai-microservices',
+      title: 'AI/ML Microservices Platform',
+      descriptor: 'Production-grade FastAPI microservices for ML inference',
+      impact: 'Enabled scalable, real-time AI features in production',
+      url: '#',
+      tech: ['Python', 'FastAPI', 'PyTorch', 'TensorFlow', 'AWS'],
+      details: {
+        overview: 'Built and deployed microservices for ML inference using FastAPI, integrating PyTorch/TensorFlow models and serving predictions at scale.',
+        role: 'Senior Python AI Engineer',
+        results: [
+          'Integrated ML models into production APIs',
+          'Deployed scalable workloads on AWS (EC2, Lambda, S3, SQS, SNS)',
+          'Collaborated with UI/UX teams for dashboard integration',
+        ]
+      }
+    },
+    {
+      id: 'ml-forecasting',
+      title: 'ML Analytics & Forecasting',
+      descriptor: 'PyTorch/Keras models for analytics and prediction',
+      impact: 'Delivered actionable insights and forecasts for business products',
+      url: '#',
+      tech: ['PyTorch', 'Keras', 'FastAPI', 'AWS', 'PostgreSQL'],
+      details: {
+        overview: 'Developed machine learning models and inference services for analytics and forecasting, consumed by web/mobile apps.',
+        role: 'Python Machine Learning Engineer',
+        results: [
+          'Built and deployed PyTorch/Keras models',
+          'Automated dataset preprocessing and validation',
+          'Maintained CI/CD for model versioning and deployment',
+        ]
+      }
+    },
+    {
+      id: 'etl-pipelines',
+      title: 'ETL & Data Ingestion Pipelines',
+      descriptor: 'Robust data workflows for ML training and prediction',
+      impact: 'Supported real-time and batch ML pipelines',
+      url: '#',
+      tech: ['Python', 'Celery', 'PostgreSQL', 'MongoDB', 'Redis'],
+      details: {
+        overview: 'Designed ETL pipelines and data ingestion workflows for ML training and real-time prediction, leveraging Celery and modern databases.',
+        role: 'Python Developer',
+        results: [
+          'Implemented background workers and batch ML workflows',
+          'Optimized feature storage and caching with PostgreSQL, MongoDB, Redis',
+          'Created reusable REST API components for ML features',
+        ]
+      }
+    },
+    // Add more AI projects here as needed
   {
     id: 'bookkeeping-ai',
     title: 'Bookkeeping/Finance Automation',

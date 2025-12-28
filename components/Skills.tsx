@@ -12,69 +12,63 @@ interface SkillCategory {
 }
 
 const skillsData: Record<string, SkillCategory> = {
-  core: {
-    name: 'Core Languages',
+  ai: {
+    name: 'AI & Machine Learning',
     skills: [
-      { name: 'Python', description: 'FastAPI, Django, Flask, data engineering' },
-      { name: 'Go', description: 'High-performance backend services' },
-      { name: 'PHP', description: 'High-performance backend services' },
-      { name: 'TypeScript', description: 'Type-safe frontend and backend' },
-      { name: 'JavaScript', description: 'Flexible application logic and tooling' },
-      { name: 'Node', description: 'Scripting ' },
+      { name: 'PyTorch', description: 'Deep learning, model training & inference' },
+      { name: 'TensorFlow', description: 'ML pipelines, model optimization' },
+      { name: 'Keras', description: 'Neural network prototyping' },
+      { name: 'Scikit-learn', description: 'Classical ML, feature engineering' },
+      { name: 'ML Pipelines', description: 'Training, inference, embeddings' },
     ],
   },
-  backend: {
-    name: 'Backend & APIs',
+  python: {
+    name: 'Python & Backend',
     skills: [
-      { name: 'FastAPI', description: 'Scalable Python APIs' },
-      { name: 'Django', description: 'Batteries-included web frameworks' },
+      { name: 'Python 3.x', description: 'Modern Python for ML and backend' },
+      { name: 'FastAPI', description: 'Async APIs and microservices' },
       { name: 'Flask', description: 'Lightweight Python services' },
-      { name: 'Node.js', description: 'JavaScript backend services' },
-      { name: 'Java', description: 'Backend services' },
-      { name: 'Golang', description: 'Backend services' },
-      { name: 'GraphQL', description: 'Flexible API schemas' },
-      { name: 'Microservices', description: 'Distributed service architectures' },
-    ],
-  },
-  data: {
-    name: 'Databases & Data',
-    skills: [
-      { name: 'PostgreSQL', description: 'Relational schema design and optimization' },
-      { name: 'MySQL', description: 'OLTP databases and indexing' },
-      { name: 'MongoDB', description: 'Flexible document stores' },
-      { name: 'Redis', description: 'Caching and real-time state' },
-      { name: 'Firebase', description: 'Realtime apps and auth' },
-    ],
-  },
-  frontend: {
-    name: 'Frontend',
-    skills: [
-      { name: 'React', description: 'Responsive UIs and state management' },
-      { name: 'Next.js', description: 'Server-rendered React apps' },
-      { name: 'Redux Toolkit', description: 'State management patterns' },
-      { name: 'Angular', description: 'Enterprise SPAs (2+)' },
-      { name: 'Vue / Nuxt', description: 'Progressive frontend frameworks' },
-      { name: 'HTML/CSS/Sass', description: 'Accessible markup and styling' },
+      { name: 'Django', description: 'Full-stack web frameworks' },
+      { name: 'RESTful APIs', description: 'API design for ML systems' },
+      { name: 'Async/Await', description: 'Concurrent backend logic' },
+      { name: 'Microservices', description: 'Distributed ML architectures' },
     ],
   },
   cloud: {
     name: 'Cloud & DevOps',
     skills: [
-      { name: 'AWS', description: 'S3, EKS, Lambda, Glue' },
-      { name: 'GCP', description: 'Cloud-native services' },
-      { name: 'Azure', description: 'Data Lake and Databricks' },
-      { name: 'Docker', description: 'Containerization and images' },
-      { name: 'CI/CD', description: 'Jenkins, GitLab CI, GitHub Actions' },
+      { name: 'AWS', description: 'EC2, S3, Lambda, SQS, SNS, model deployment' },
+      { name: 'Serverless', description: 'Cloud automation for ML' },
+      { name: 'Docker', description: 'Containerization for ML workloads' },
+      { name: 'Jenkins', description: 'CI/CD for ML pipelines' },
+      { name: 'GitHub Actions', description: 'CI/CD automation' },
+      { name: 'Linux', description: 'Production environments' },
+    ],
+  },
+  data: {
+    name: 'Data Pipelines & ETL',
+    skills: [
+      { name: 'ETL Workflows', description: 'Data ingestion, preprocessing, streaming' },
+      { name: 'Celery/RQ', description: 'Task queues for ML pipelines' },
+      { name: 'Streaming', description: 'Real-time data for ML' },
+    ],
+  },
+  db: {
+    name: 'Databases',
+    skills: [
+      { name: 'PostgreSQL', description: 'Schema design, query optimization' },
+      { name: 'MySQL', description: 'OLTP, feature storage' },
+      { name: 'MongoDB', description: 'NoSQL, aggregation' },
+      { name: 'Redis', description: 'Caching, feature storage' },
     ],
   },
   tools: {
-    name: 'Tools & Testing',
+    name: 'Tools & Collaboration',
     skills: [
-      { name: 'Jest', description: 'Unit testing' },
-      { name: 'Mocha', description: 'Testing utilities' },
-      { name: 'Cypress', description: 'End-to-end testing' },
-      { name: 'OpenTelemetry', description: 'Instrumentation and observability' },
-      { name: 'Apache Arrow', description: 'High-performance ETL serialization' },
+      { name: 'Git', description: 'Version control' },
+      { name: 'GitHub/Bitbucket', description: 'Collaboration, CI/CD' },
+      { name: 'OpenAPI/Swagger', description: 'API documentation' },
+      { name: 'JavaScript/HTML/CSS', description: 'UI/UX collaboration, ML API integration' },
     ],
   },
 };
@@ -152,24 +146,24 @@ export default function Skills() {
           <h3>Key Proficiencies</h3>
           <div className={styles.highlightList}>
             <div className={styles.highlightItem}>
-              <span className={styles.icon}>🛠️</span>
-              <span>Backend/API design (FastAPI, Django, Node.js, GraphQL)</span>
+              <span className={styles.icon}>🤖</span>
+              <span>AI/ML microservices (FastAPI, PyTorch, TensorFlow)</span>
             </div>
             <div className={styles.highlightItem}>
-              <span className={styles.icon}>🤖</span>
-              <span>ML/AI integration (PyTorch, TensorFlow, prompt workflows)</span>
+              <span className={styles.icon}>📈</span>
+              <span>ETL/data pipelines for ML training and inference</span>
             </div>
             <div className={styles.highlightItem}>
               <span className={styles.icon}>☁️</span>
-              <span>Cloud & DevOps (AWS, Azure, Docker, CI/CD)</span>
+              <span>Cloud automation & deployment (AWS, Docker, CI/CD)</span>
             </div>
             <div className={styles.highlightItem}>
-              <span className={styles.icon}>💻</span>
-              <span>Frontend frameworks (React, Next.js, Angular, Vue)</span>
+              <span className={styles.icon}>🗄️</span>
+              <span>Database design (PostgreSQL, MongoDB, Redis)</span>
             </div>
             <div className={styles.highlightItem}>
-              <span className={styles.icon}>✅</span>
-              <span>Testing & CI (Jest, Mocha, Cypress, GitHub/GitLab CI)</span>
+              <span className={styles.icon}>🤝</span>
+              <span>Cross-team collaboration (UI/UX, product, data)</span>
             </div>
           </div>
         </div>
